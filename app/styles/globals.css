@@ -9,6 +9,14 @@
   box-sizing: border-box;
   max-width: 100%;
   text-decoration: none;
+}
+
+body{
   background-color: #272727;
 }
 
+.gradient {
+  background: -webkit-linear-gradient(180deg, #601369, #0E40D7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
