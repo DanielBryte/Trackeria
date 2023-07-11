@@ -26,15 +26,7 @@ const Hero = () => {
 
 
 
-            <div className="w-[50px] h-[319.28px] flex-col justify-center items-center inline-flex">
-                <div className="w-[50px] h-[319.28px] relative">
-                    <div className="w-[50px] h-[50px] left-0 top-[115.28px] absolute" />
-                    <div className="w-[50px] h-[50px] left-0 top-[269.28px] absolute">
-                        <div className="w-[36.88px] h-[50px] left-[6.56px] top-[-0px] absolute">
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     )
 }
