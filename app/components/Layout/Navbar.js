@@ -95,11 +95,11 @@ export default function Header() {
                             ? "flex flex-col items-start lg:my-1 lg:w-auto lg:static lg:inline-block relative gap-6 w-full my-6 space-x-0  lg:space-x-6"
                             : "hidden md:flex space-x-6 "
                     }>
-                    <p className="text-zinc-100 text-1xl lg:text-2xl font-normal">Explore</p>
-                    <p className="text-zinc-100 text-1xl lg:text-2xl font-normal">Products</p>
-                    <p className="text-zinc-100 text-1xl lg:text-2xl font-normal">About</p>
-                    <p className="text-zinc-100 text-1xl lg:text-2xl font-normal">Pricing</p>
-                    <p className="text-zinc-100 text-1xl lg:text-2xl font-normal">FAQs</p>
+                    <p className="nav_text">Explore</p>
+                    <p className="nav_text">Products</p>
+                    <p className="nav_text">About</p>
+                    <p className="nav_text">Pricing</p>
+                    <p className="nav_text">FAQs</p>
 
                 </div>
 

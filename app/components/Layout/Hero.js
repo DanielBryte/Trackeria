@@ -4,8 +4,10 @@ import Arrow from "/assets/hero/arrow.svg"
 const Hero = () => {
     return (
         <div className="flex flex-col items-center justify-center my-14 transition-all duration-0">
-            <div className="flex justify-center items-center w-[400px] pb-3 md:w-[450px] lg:w-[500px] h-10 bg-gradient-to-r from-blue-700 to-fuchsia-900 rounded-[60px] px-4 lg:px-0">
-                <span className="flex gap-6 text-center cursor-pointer text-zinc-300 text-xs md:text-sm lg:text-base transition-all duration-500 hover:text-[12.3px] md:hover:text-[14.3] lg:hover:text-[16.3px] font-semibold">Join the waitlist, to be updated when we launch <Image src={Arrow} /></span>
+
+            <div className="flex justify-center items-center gap-2 md:gap-4 lg:gap-8 w-[350px] md:w-[450px] lg:w-[500px] h-10 bg-gradient-to-r from-blue-700 to-fuchsia-900 rounded-[60px] animate-pulse">
+                <span className="text-center text-zinc-300 text-xs md:text-sm lg:text-base transition-all duration-500 hover:text-[12.3px] md:hover:text-[14.3] lg:hover:text-[16.3px] font-medium cursor-pointer">Check out product full case study here</span>
+                <Image src={Arrow}/>
             </div>
 
             <div className="w-[751px] text-center">
