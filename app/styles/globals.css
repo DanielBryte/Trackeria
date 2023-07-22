@@ -20,3 +20,13 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+.nav_text{
+  @apply text-zinc-100 text-sm lg:text-lg font-normal
+}
+
+
+.section_text{
+  @apply font-bold text-center py-2 text-2xl md:text-3xl lg:text-[45px] pt-10
+}
