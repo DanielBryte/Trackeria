@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const About = () => {
     return (
-        <div className=" bg-white my-8 py-3">
+        <div className="bg-white my-8 py-10">
             <div className="flex justify-center items-center flex-col">
                 <h1 className="section_text">
                     WITH TRACKERIA YOU
@@ -19,7 +19,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className="block mx-auto" data-aos="fade-right" data-aos-duration="1000">
+                    <div className="block mx-auto" data-aos="fade-left" data-aos-duration="1000">
                         <Image
                             className="rounded-[50px]"
                             src="/about/control.svg"
@@ -49,7 +49,7 @@ const About = () => {
                         />
                     </div>
 
-                    <div className="text-start lg:text-start  space-y-6 py-4 my-5 order-1 md:order-none" data-aos="fade-right" data-aos-duration="1000">
+                    <div className="text-start lg:text-start  space-y-6 py-4 my-5 order-1 md:order-none" data-aos="fade-left" data-aos-duration="1000">
                         <p className="text-neutral-800 text-3xl font-bold tracking-tight">Track devices in real-time</p>
                         <p className="flex flex-col items-start space-y-5">
                             <span className="w-full md:w-[400px] text-neutral-800 text-2xl font-normal leading-[38px] tracking-tight">Track your digital devices and systems in real-time using the modern device tracking software and app. You can now recover, track and locate several devices just from the app, logged-in at any time</span>
@@ -72,7 +72,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className="block mx-auto" data-aos="fade-right" data-aos-duration="1000">
+                    <div className="block mx-auto" data-aos="fade-left" data-aos-duration="1000">
                         <Image
                             className="rounded-[50px]"
                             src="/about/secure.svg"
