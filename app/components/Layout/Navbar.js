@@ -7,30 +7,6 @@ export default function Header() {
 
     const [navbar, setNavbar] = useState(false);
 
-    const [isOpen, setIsOpen] = useState(false);
-    const [isActive, setisActive] = useState(false);
-    const [IsAbout, setIsAbout] = useState(false);
-
-    const ref = useRef();
-    const ref1 = useRef();
-    const ref2 = useRef();
-
-    useEffect(() => {
-        function handleClickOutside(event) {
-            if (ref.current && !ref.current.contains(event.target)) {
-                setIsOpen(false);
-            } else if (ref1.current && !ref1.current.contains(event.target)) {
-                setisActive();
-            } else if (ref2.current && !ref2.current.contains(event.target)) {
-                setIsAbout(false);
-            }
-        }
-
-        document.addEventListener("mousedown", handleClickOutside);
-        return () => {
-            document.removeEventListener("mousedown", handleClickOutside);
-        };
-    }, [ref, ref1]);
 
     return (
         <header
@@ -94,13 +70,11 @@ export default function Header() {
                         navbar
                             ? "flex flex-col items-start lg:my-1 lg:w-auto lg:static lg:inline-block relative gap-6 w-full my-6 space-x-0  lg:space-x-6"
                             : "hidden md:flex space-x-6 "
-                    }>
-                    <p className="nav_text">Explore</p>
-                    <p className="nav_text">Products</p>
-                    <p className="nav_text">About</p>
-                    <p className="nav_text">Pricing</p>
-                    <p className="nav_text">FAQs</p>
-
+                    }>                    
+                    <a className="nav_text" href="#about">About</a>
+                    <a className="nav_text" href="#product">Products</a>
+                    <a className="nav_text" href="#faq">FAQs</a>
+                    <a className="nav_text" href="#pricing">Pricing</a>
                 </div>
 
                 <div
