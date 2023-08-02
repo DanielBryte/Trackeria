@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className="bg-white my-8 py-10">
             <div className="flex justify-center items-center flex-col">
-                <h1 className="section_text">
+                <h1 className="section_text" id="about">
                     WITH TRACKERIA YOU
                 </h1>
             </div>
