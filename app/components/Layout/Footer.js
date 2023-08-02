@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <section className='footer'>
-            <div className='flex text-base md:text-md lg:text-lg gap-6'>
+            <div className='grid text-center grid-cols-1 lg:grid-cols-4 lg:flex-row text-base md:text-md lg:text-lg gap-6'>
                 <a href='#'>API for developers</a>
                 <a href='/' target='_blank'>Support</a>
                 <a href='https://www.ezediniru.com/contact' target='_blank'>Contact</a>
