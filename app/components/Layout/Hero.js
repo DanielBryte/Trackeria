@@ -1,14 +1,14 @@
 import Image from "next/image"
-import Arrow from "/assets/hero/arrow.svg"
+import Arrow from "/public/hero/arrow.svg"
 
 const Hero = () => {
     return (
-        <div className="flex flex-col items-center justify-center my-14 transition-all duration-0">
+        <div className="flex flex-col items-center justify-center my-16 transition-all duration-0">
 
-            <div className="flex justify-center items-center gap-2 md:gap-4 lg:gap-8 w-[350px] md:w-[450px] lg:w-[500px] h-10 bg-gradient-to-r from-blue-700 to-fuchsia-900 rounded-[60px] animate-pulse">
+            <a href="#" target="_blank" className="flex justify-center items-center gap-2 md:gap-4 lg:gap-8 w-[350px] md:w-[450px] lg:w-[500px] h-10 bg-gradient-to-r from-blue-700 to-fuchsia-900 rounded-[60px] animate-pulse">
                 <span className="text-center text-zinc-300 text-xs md:text-sm lg:text-base transition-all duration-500 hover:text-[12.3px] md:hover:text-[14.3] lg:hover:text-[16.3px] font-medium cursor-pointer">Check out product full case study here</span>
                 <Image src={Arrow}/>
-            </div>
+            </a>
 
             <div className="w-[751px] text-center">
                 <span className="text-[60px] md:text-[65px] lg:text-[70px] text-blue-900 font-bold">Secure</span>
