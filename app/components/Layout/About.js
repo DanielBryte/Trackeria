@@ -1,7 +1,14 @@
-import Image from "next/image"
+'use client';
 
+import Image from "next/image"
+import AOS from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+      }, []);
     return (
         <div className="bg-white my-8 py-10">
             <div className="flex justify-center items-center flex-col">
