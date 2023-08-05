@@ -23,7 +23,7 @@ const Hero = () => {
 
 
             <div className="w-[180px] h-[55px]  md:w-[220px] md:h-[65px] lg:w-[260px] lg:h-[75px] p-5 bg-gradient-to-r from-blue-700 via-violet-900 to-fuchsia-900 rounded justify-center items-center gap-2.5 inline-flex">
-                <div className="text-white text-base md:text-xl lg:text-2xl font-medium">Get Started — free</div>
+                <a href="https://forms.gle/LRQ8rX6TqEEY6Etj9" target="_blank" className="text-white text-base md:text-xl lg:text-2xl font-medium">Get Started — free</a>
             </div>
 
 

@@ -81,7 +81,7 @@ export default function Header() {
                     className="hidden md:flex columns-1 gap-5"
                 >
                     <a
-                        href="/waitlist"
+                        href="https://forms.gle/LRQ8rX6TqEEY6Etj9" target="_blank"
                         className="flex justify-center items-center btn btn-active border text-1xl md:border-0 w-32 h-12  lg:w-40 lg:h-[52px] bg-gradient-to-r from-blue-700 to-fuchsia-900 rounded-lg"
                     >
                         Get Started
