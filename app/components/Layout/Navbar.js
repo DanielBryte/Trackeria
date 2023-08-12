@@ -1,6 +1,6 @@
 "use client";
-import { useState, React, useRef, useEffect } from "react";
-import Logo from "/assets/logo.svg"
+import { useState} from "react";
+import Logo from "/public/logo.svg"
 import Image from "next/image";
 export default function Header() {
 
