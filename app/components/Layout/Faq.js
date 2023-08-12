@@ -40,7 +40,7 @@ const Faqs = () => {
       {faqData.map((faq, index) => (
         <div key={index} className="flex justify-center my-4 md:my:6 lg:my-8 flex-col text-white">
           <div className="w-[1240px] p-6 lg:p-9 bg-blue-800 flex justify-between bg-opacity-90 rounded-[15px]">
-            <p>{faq.question}</p>
+            <p className="text-2xl">{faq.question}</p>
             <p onClick={() => handleClick(index)}>
               <Image src="./open.svg" width="31" height="23" className="w-[25px] h-[17px]" />
             </p>
