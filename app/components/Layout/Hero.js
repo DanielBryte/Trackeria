@@ -30,41 +30,42 @@ const Hero = () => {
 
             {/* Left assets */}
 
-            <div className="w-[60px] h-[60px] left-[2vw] top-[30%] absolute">
+            <div className="w-[60px] h-[60px] left-[2vw] top-[30%] absolute invisible lg:visible">
                 <Image src={Left1} />
-            </div>            <div className="w-[50px] h-[61.98px] left-[2vw] top-[50%] absolute">
+            </div>
+            <div className="w-[50px] h-[61.98px] left-[2vw] top-[50%] absolute invisible lg:visible">
                 <Image src={Left2} />
             </div>
-            <div className="w-[50px] h-[50px] left-[2vw] top-[70%] absolute">
+            <div className="w-[50px] h-[50px] left-[2vw] top-[70%] absolute invisible lg:visible">
                 <Image src={Left3} />
             </div>
 
-            <div className="w-[50px] h-[50px] left-[7vw] top-[38%] absolute">
+            <div className="w-[50px] h-[50px] left-[7vw] top-[38%] absolute invisible lg:visible">
                 <Image src={Left4} />
-            </div>            <div className="w-[50px] h-[61.98px] left-[7vw] top-[58%] absolute">
+            </div>            <div className="w-[50px] h-[61.98px] left-[7vw] top-[58%] absolute invisible lg:visible">
                 <Image src={Left5} />
             </div>
-            <div className="w-[50px] h-[50px] left-[7vw] top-[78%] absolute">
+            <div className="w-[50px] h-[50px] left-[7vw] top-[78%] absolute invisible lg:visible">
                 <Image src={Left6} />
             </div>
 
 
             {/* Right assets */}
-            <div className="w-[50px] h-[50px] right-[2vw] top-[30%] absolute">
+            <div className="w-[50px] h-[50px] right-[2vw] top-[30%] absolute invisible lg:visible">
                 <Image src={Right1} />
-            </div>            <div className="w-[50px] h-[50px] right-[2vw] top-[50%] absolute">
+            </div>            <div className="w-[50px] h-[50px] right-[2vw] top-[50%] absolute invisible lg:visible">
                 <Image src={Right2} />
             </div>
-            <div className="w-[50px] h-[50px] right-[2vw] top-[70%] absolute">
+            <div className="w-[50px] h-[50px] right-[2vw] top-[70%] absolute invisible lg:visible">
                 <Image src={Right3} />
             </div>
 
-            <div className="w-[50px] h-[54.1px] right-[7vw] top-[38%] absolute">
+            <div className="w-[50px] h-[54.1px] right-[7vw] top-[38%] absolute invisible lg:visible">
                 <Image src={Right4} />
-            </div>            <div className="w-[50px] h-[61.98px] right-[7vw] top-[58%] absolute">
+            </div>            <div className="w-[50px] h-[61.98px] right-[7vw] top-[58%] absolute invisible lg:visible">
                 <Image src={Right5} />
             </div>
-            <div className="w-[50px] h-[59px] right-[7vw] top-[78%] absolute">
+            <div className="w-[50px] h-[59px] right-[7vw] top-[78%] absolute invisible lg:visible">
                 <Image src={Right6} />
             </div>
 
