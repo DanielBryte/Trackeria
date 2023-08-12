@@ -15,7 +15,6 @@ import Right5 from "/public/hero/right-5.png"
 import Right6 from "/public/hero/right-6.png"
 
 
-
 const Hero = () => {
     return (
         <div className="flex flex-col items-center justify-center my-5 mb-16 transition-all duration-0">
