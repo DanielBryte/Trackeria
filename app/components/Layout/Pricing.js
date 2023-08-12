@@ -12,7 +12,7 @@ const Pricing = () => {
             {/* Individual plan card */}
 
 
-            <div className='card-wrappper grid grid-col-1 lg:grid-cols-3 gap-16 py-16'>
+            <div className='card-wrappper grid grid-col-1 lg:grid-cols-3 gap-16 py-16' data-aos="fade-right" data-aos-duration="800">
                 <div className="w-[355px] h-[595px] relative bg-white rounded-lg">
                     <div className="w-[83px] h-[21px] left-[21px] top-[44px] absolute">
                         <div className="w-[83px] h-[21px] left-0 top-0 absolute bg-blue-700 bg-opacity-50 rounded-[10px]" />
@@ -65,10 +65,10 @@ const Pricing = () => {
 
 
                 {/* Family plan card */}
-                <div className="w-[355px] h-[595px] relative bg-white rounded-lg">
+                <div className="w-[355px] h-[595px] relative bg-white rounded-lg" data-aos="fade-right" data-aos-duration="1200">
                     <div className="w-[83px] h-[21px] left-[21px] top-[44px] absolute">
                         <div className="w-[83px] h-[21px] left-0 top-0 absolute bg-blue-700 bg-opacity-50 rounded-[10px]" />
-                        <div className="left-[17px] top-[4px] absolute text-blue-700 text-[10px] font-normal uppercase">FAMILY</div>
+                        <div className="left-[25px] top-[4px] absolute text-blue-700 text-[10px] font-normal uppercase">FAMILY</div>
                     </div>
 
                     <div className="flex items-center left-[17px] top-[86px] absolute text-blue-700 text-5xl font-bold">$30<span className="text-3xl">/month</span></div>
@@ -119,7 +119,7 @@ const Pricing = () => {
                 {/* Business pricing card */}
 
 
-                <div className="w-[355px] h-[595px] relative bg-white rounded-lg">
+                <div className="w-[355px] h-[595px] relative bg-white rounded-lg" data-aos="fade-right" data-aos-duration="1600">
                     <div className="w-[83px] h-[21px] left-[21px] top-[44px] absolute">
                         <div className="w-[83px] h-[21px] left-0 top-0 absolute bg-blue-700 bg-opacity-50 rounded-[10px]" />
                         <div className="left-[17px] top-[4px] absolute text-blue-700 text-[10px] font-normal uppercase">BUSINESS</div>
