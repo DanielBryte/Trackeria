@@ -82,7 +82,7 @@ export default function Header() {
                 >
                     <a
                         href="https://forms.gle/LRQ8rX6TqEEY6Etj9" target="_blank"
-                        className="flex justify-center items-center btn btn-active border text-1xl md:border-0 w-32 h-12  lg:w-40 lg:h-[52px] bg-gradient-to-r from-blue-700 to-fuchsia-900 rounded-lg"
+                        className="flex justify-center items-center btn btn-active border text-1xl md:border-0 w-32 h-12 font-semibold text-lg lg:w-40 lg:h-[52px] bg-gradient-to-r from-blue-700 to-fuchsia-900 rounded-lg"
                     >
                         Get Started
                     </a>
