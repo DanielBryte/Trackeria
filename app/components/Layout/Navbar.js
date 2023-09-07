@@ -10,9 +10,9 @@ export default function Header() {
 
     return (
         <header
-            className="flex flex-col items-center text-white"
+            className="relative flex flex-col items-center text-white"
         >
-            <div className="m-auto max-w-7xl p-5 flex w-full flex-row flex-wrap items-center justify-between xl:flex-row">
+            <div className="absolute z-40 m-auto max-w-7xl p-5 flex w-full flex-row flex-wrap items-center justify-between xl:flex-row">
                 <div className="flex pl:1 lg:pl-4 gap-3 items-center justify-center">
                     <Image
                         src={Logo}
@@ -68,8 +68,8 @@ export default function Header() {
                 <div
                     className={
                         navbar
-                            ? "flex flex-col items-start lg:my-1 lg:w-auto lg:static lg:inline-block relative gap-6 w-full my-6 space-x-0  lg:space-x-6"
-                            : "hidden md:flex space-x-6 "
+                            ? "flex flex-col items-center bg-[#333333] md:bg-transparent justify-center md:my-1 md:w-auto md:static md:inline-block relative gap-6 w-full my-6 space-x-0  md:space-x-6"
+                            : "hidden sm:flex space-x-6 my-2"
                     }>                    
                     <a className="nav_text" href="#about">About</a>
                     <a className="nav_text" href="#product">Products</a>
