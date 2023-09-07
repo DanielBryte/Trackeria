@@ -22,7 +22,7 @@ import Right6 from "/public/hero/right-6.png"
 
 const Hero = () => {
     return (
-        <div className="flex flex-col my-6 items-center justify-center transition-all duration-0 h-screen">
+        <div className="flex flex-col items-center justify-center transition-all duration-0 h-screen">
 
 
             {/* Left assets */}
