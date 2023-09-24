@@ -70,7 +70,7 @@ const Hero = () => {
 
             <section className="flex flex-col items-center" data-aos="fade-up" data-aos-duration="800">
                 {/* Project alert box(updates) */}
-                <a href="#" target="_blank" className="flex justify-center items-center my-6 gap-2 md:gap-4 lg:gap-8 w-[350px] md:w-[450px] lg:w-[500px] h-10 bg-gradient-to-r from-blue-700 to-fuchsia-900 rounded-[60px] animate-pulse">
+                <a href="https://www.behance.net/gallery/179927617/Trackeria-Case-Study-(Digital-Security-App)" target="_blank" className="flex justify-center items-center my-6 gap-2 md:gap-4 lg:gap-8 w-[350px] md:w-[450px] lg:w-[500px] h-10 bg-gradient-to-r from-blue-700 to-fuchsia-900 rounded-[60px] animate-pulse">
                     <span className="text-center text-zinc-300 text-xs md:text-sm lg:text-base transition-all duration-500 hover:text-[12.3px] md:hover:text-[14.3] lg:hover:text-[16.3px] font-medium cursor-pointer">Check out product full case study here</span>
                     <Image src={Arrow} />
                 </a>
